@@ -1,7 +1,7 @@
 noseX = 0;
 noseY = 0;
 function preload(){
-    clown_nose = loadImage("https://i.postimg.cc/Y0TM3zB0/download-removebg-preview.png");
+    moustache = loadImage("https://i.postimg.cc/Y0TM3zB0/download-removebg-preview.png");
 }
 
 function setup(){
@@ -29,7 +29,7 @@ function goPoses(results){
 
 function draw(){
     image(video, 0, 0, 300, 300);
-    image(clown_nose, noseX, noseY, 50, 30);
+    image(moustache, noseX, noseY, 50, 30);
 }
 
 function take_snapshot(){
